@@ -1,0 +1,16 @@
+/* Add this in global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  body {
+    background-color: #000b14; /* Apply the theme background */
+    color: #ffffff; /* Default text color */
+  }
+}
+.loader {
+  border-width: 2px;
+}
