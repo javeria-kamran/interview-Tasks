@@ -40,7 +40,7 @@ export default function Home() {
           type="date"
           value={dateInput}
           onChange={(e) => setDateInput(e.target.value)}
-          className="w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500"
+          className="w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500 text-black placeholder:text-black"
         />
         <button
           onClick={handleSubmit}
