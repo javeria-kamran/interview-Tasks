@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-teal-50 via-white to-teal-100 p-6 sm:px-12 sm:py-16">
       <h1 className="text-3xl sm:text-4xl font-extrabold text-teal-700 mb-6 tracking-tight">
-        Professional Countdown Timer
+         Countdown Timer
       </h1>
 
       <div className="w-full max-w-lg bg-white p-8 rounded-lg shadow-lg border border-teal-200">
